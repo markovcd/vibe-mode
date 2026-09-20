@@ -77,6 +77,9 @@ To use it globally instead, put `.claude/skills`, `.claude/agents`, and
 | `.claude/skills/vibe-mode/references/naming.md` | Naming by feel; the mouth test |
 | `.claude/skills/vibe-mode/references/flow-protection.md` | Loop speed, the parking lot, re-entry |
 | `.claude/skills/ship-it/SKILL.md` | Landing at the peak instead of polishing past it |
+| `.claude/skills/vibe-check/SKILL.md` | The mode as an instrument — read what unchecked agents reach for |
+| `.claude/skills/vibe-check/references/harvesting.md` | Ground truth, the diff, counting repetition |
+| `.claude/skills/vibe-check/references/reading-the-signal.md` | Hole, foreign shape, renaming, noise; the confidence ladder |
 | `.claude/agents/taste-check.md` | Subagent: how does this *feel*, not is it correct |
 | `.claude/agents/first-instinct.md` | Subagent: one answer, no options, under 150 words |
 | `.claude/output-styles/vibe.md` | Voice: short, declarative, built-not-discussed |
@@ -96,6 +99,24 @@ To use it globally instead, put `.claude/skills`, `.claude/agents`, and
 ```
 
 Or just say "vibe mode" and the skill triggers on its own.
+
+## The mode as an instrument
+
+`/vibe-check` turns the whole thing around. Instead of using vibe mode to build,
+you spawn agents in it, forbid them from looking up your vocabulary, and read the
+names they invent. Where an invented name misses yours, you have found something
+everything else in the model's training has and you do not — a hole, or a place
+your name is off the path everyone else walks.
+
+The mistake is the measurement. Nothing the agents write is kept.
+
+It also settles a design fork: hand three unsteered agents the same task with no
+hint that a fork exists, and read the choice out of what they built. Convergence
+means conventional, which is worth knowing and is not the decision.
+
+It is expensive — three throwaway agents, several hundred thousand tokens — so it
+costs it out and asks before spawning anything. `/gut` answers most of the same
+questions for nothing.
 
 ## The two guardrails
 
