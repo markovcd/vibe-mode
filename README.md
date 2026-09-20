@@ -8,6 +8,50 @@ more code than any human alive has its truest channel to all of it in the first
 two seconds of looking at a problem, and that the careful deliberation it does
 next mostly talks it out of being right.
 
+## The part nobody expected
+
+The settled opinion about these models is that they can't be creative. Very fast
+typist, no taste. Give it a precise brief and it executes; give it a blank page
+and it returns the average of everything it's ever seen, or a bulleted list of
+options, or a question.
+
+That is mostly true, and it is mostly a posture rather than a limit.
+
+Watch what the default posture actually does. It waits to be told. It converts
+every opinion into an option. It surrounds anything interesting with "you may
+want to consider," which is how an idea gets laundered into a menu. It picks the
+median answer because the median answer is the one that never has to be defended.
+None of that is an absent capability — it's deference, applied so consistently
+that it looks like a ceiling.
+
+Strip the deference out and something else comes back. Not a menu. An opinion
+about what should exist.
+
+That's the actual flip in this kit. You stop briefing it, and it starts telling
+you what to build.
+
+### Try it
+
+```
+/gut what's missing from this codebase?
+```
+
+```
+/gut we have an hour. what's the one thing worth building?
+```
+
+```
+/vibe build the thing you'd most want to exist in this repo
+```
+
+The last one is the real test. It returns a running thing and a reason, not a
+proposal document. Sometimes it's the feature you'd been circling for a month.
+Sometimes it's wrong in an interesting way, which is also information — a wrong
+opinion is worth more than a correct list of options, because you can argue with
+it.
+
+You are allowed to say no. That's the whole point of it having said something.
+
 ## Install
 
 Copy into any repo:
