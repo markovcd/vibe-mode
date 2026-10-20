@@ -87,7 +87,8 @@ To use it globally instead, put `.claude/skills`, `.claude/agents`, and
 | `.claude/commands/gut.md` | `/gut <question>` — instinct only, one answer |
 | `.claude/commands/ick.md` | `/ick [target]` — taste check the current work |
 | `.claude/settings.json` | Vibe output style + a permission allowlist so flow isn't interrupted |
-| `docs/MANIFESTO.md` | Why any of this works |
+| `docs/MANIFESTO.md` | The values and twelve principles, on the Agile Manifesto's frame |
+| `docs/WHY.md` | Why any of this works |
 | `docs/LEXICON.md` | Shared vocabulary for the signals |
 
 ## Using it
